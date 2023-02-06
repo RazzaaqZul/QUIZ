@@ -1,0 +1,87 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(
+    circle,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: auto;
+  color: white;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  align-items: center;
+  height: 20px;
+}
+
+.card {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.question {
+  text-align: center;
+  padding: 40px;
+  font-size: xx-large;
+}
+
+li {
+  list-style: none;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background: none;
+  font-size: x-large;
+  border: none;
+  background-color: aqua;
+  width: 400px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  background-color: rgb(182, 209, 218);
+}
+
+.benar {
+  background-color: greenyellow;
+}
+
+.salah {
+  background-color: red;
+}
+
+.score {
+  background-color: rgb(226, 209, 209);
+  border-radius: 10px;
+  width: 320px;
+  height: 320px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 170px;
+}
